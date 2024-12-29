@@ -1,0 +1,19 @@
+{
+  "id": "%file_name%",
+  "category": "%directory_name%",
+  "tags": [
+    {
+      "id": "default",
+      "component": [
+        {"type": "meta.ItemRender", "data": {"type": "generated", "path": "item/model"}}
+      ]
+    },
+    {
+      "id": "custom",
+      "override": "default",
+      "component": [
+        {"type": "meta.ItemRender", "data": {"type": "handheld", "path": "item/model"}}
+      ]
+    }
+  ]
+}

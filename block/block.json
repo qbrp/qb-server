@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:grass_block",
+  "id": "%file_name%",
+  "name": "Блок травы",
+  "type": "GrassBlock",
+  "variants": [
+    {"id": "alt_grass", "texture": {"path": "alt_grass.png", "???": "Какие то другие данные для рендера"}}
+  ]
+}
